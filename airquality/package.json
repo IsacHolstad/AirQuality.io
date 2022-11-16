@@ -1,14 +1,25 @@
 {
-  "name": "airquality",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "airquality.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "npx prettier --write ..",
+    "check-clean": "npx prettier --check .."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsacHolstad/AirQuality.io.git"
+  },
+  "author": "isac holstad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsacHolstad/AirQuality.io/issues"
+  },
+  "homepage": "https://github.com/IsacHolstad/AirQuality.io#readme",
   "devDependencies": {
-    "vite": "^3.2.3"
+    "eslint": "^8.27.0",
+    "prettier": "2.7.1"
   }
 }
